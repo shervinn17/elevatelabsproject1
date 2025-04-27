@@ -84,3 +84,72 @@ This project explores the **sales, profit, shipping behavior, and customer segme
 ## 📬 Contact
 For questions or collaboration, feel free to reach out!
 
+
+# YouTube Data Analysis Project
+
+## Project Overview
+This project focuses on analyzing YouTube channel and video data to uncover trends, performance drivers, and strategic insights. It combines Python-based data analysis with an interactive Tableau dashboard for dynamic visual exploration.
+
+## Objectives
+- Identify top-performing YouTube categories and creators.
+- Understand the impact of sentiment on audience engagement.
+- Analyze subscriber growth, earnings distribution, and content trends.
+- Visualize insights using interactive dashboards.
+
+## Tools Used
+- **Python** (Jupyter Notebook)
+  - Pandas, Numpy (Data manipulation)
+  - Matplotlib, Seaborn (Visualization)
+  - NLTK (Natural Language Processing for Sentiment Analysis)
+- **SQL** (Pandasql library for SQL-like queries)
+- **Tableau** (Dashboard building and visualization)
+
+## Project Structure
+```
+├── Project 2 Elevate Labs.ipynb   # Python notebook with full data preparation, analysis, and EDA
+├── Dashboard.twb / Dashboard.twbx # Tableau Dashboard files (if applicable)
+├── README.md                      # Project documentation
+├── Final Report.pdf               # 1-2 page project insights report
+├── Dataset/                       # Raw YouTube data (CSV/Excel)
+```
+
+## Steps Involved
+
+### 1. Data Preparation & Cleaning
+- Loaded dataset and handled missing values.
+- Standardized and formatted key fields (views, subscribers, likes, etc.).
+
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed channel categories, view counts, and earnings patterns.
+- Visualized trends and distributions using graphs.
+
+### 3. Sentiment Analysis
+- Performed sentiment analysis on video titles and tags using NLTK.
+- Classified sentiments into Positive, Negative, or Neutral categories.
+
+### 4. Key Insight Extraction
+- Top YouTubers by views and subscribers.
+- Categories with the highest audience engagement.
+- Regional analysis of earnings.
+
+### 5. Tableau Dashboard
+- Created an interactive dashboard for:
+  - Most Popular Genres
+  - Top Subscribed Channels (Word Cloud)
+  - Sentiment Trends Over Time
+  - Revenue by Country
+  - Category-Wise Subscriber Distribution
+
+## Key Findings
+- **Music** and **Entertainment** dominate YouTube in terms of views and subscribers.
+- Positive and neutral sentiment titles tend to perform better.
+- The U.S., India, and Brazil are leading markets for YouTube revenue generation.
+- Top channels contribute disproportionately to overall views and earnings.
+
+## Conclusion
+This project provides valuable insights into YouTube’s performance landscape. Combining Python’s analytical capabilities with Tableau's visualization strengths results in actionable findings that can guide content creators, marketers, and strategists in optimizing their YouTube presence.
+
+## Author
+- **Project by:** Shervin Brett
+- **Technologies:** Python, SQL, Tableau
+
